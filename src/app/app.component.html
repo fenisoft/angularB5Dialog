@@ -1,0 +1,13 @@
+<div class="container">
+  <h4>Bootstrap 5 - test dialog -Promise - return</h4>
+  <div>
+    <button type="button" class="btn btn-success" (click)="testDialog()">TestDialog</button>
+    <div>{{dialogResult}}</div>
+  </div>
+
+  <div class="mt-4 d-flex">
+    <button type="button" class="btn btn-primary" (click)="testPrompt()">testPrompt</button>
+    <input class="ms-2 form-control w-25" type="text"  name="promptValue"  [(ngModel)]="promptValue"/>
+  </div>
+
+</div>
