@@ -265,7 +265,6 @@ function htmlDialog(
   center: boolean = false,
   showClose: boolean = false) {
   const classCenter = center ? 'modal-dialog-centered' : '';
-  //data-bs-dismiss="modal"
   const closeButton = showClose ? `<button type="button"
 		data-return="CLOSE"
 		class="btn-close btn-close-white fs-close-modal" aria-label="Close">
@@ -293,7 +292,3 @@ function htmlDialog(
 	</div>`
 }
 
-function _window(): any {
-  // return the global native browser window object
-  return window;
-}
